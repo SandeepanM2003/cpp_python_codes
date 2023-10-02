@@ -8,9 +8,8 @@
 -  Visit The Hacktoberfest website for more information [Hacktoberfest 2023](https://hacktoberfest.com/) 
 
 ## Getting Started
-* Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
-* Clone your fork down to your local machine
-Clone this repo:
+Fork this repository (Click the Fork button in the top right of this page, click your Profile Image)
+and Clone your fork down to your local machine:
 
 ```sh
 git clone https://github.com/your-username/cpp_python_codes.git
