@@ -1,7 +1,7 @@
 # Hacktoberfest2023 💻 🚀 
 ## _Happy Contributing_ , _Happy hacking_......
 - All Contributors are requested to star ⭐ this repo and follow me for a successful merge of pull request.
-- Add any project, algorithm or leetcode solution in these two languages or fix the issues created in this repo
+- Add any algorithm or leetcode solution in these two languages or fix the issues created in this repo
   - ⚙️C++ 
   - ⚙️python 
 - Contribute the codes in their respective language folder(C++ or Python) repo ad earn rewards 🏆 !
