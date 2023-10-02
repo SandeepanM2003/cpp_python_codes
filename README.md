@@ -26,7 +26,7 @@ In each respective folder on any topic, don't forget to read the rules below to 
 * Clone your fork down to your local machine
 
 ```markdown
-git clone https://github.com/your-username/DSA_Hacktoberfest2023.git
+git clone https://github.com/your-username/cpp_python_codes.git
 ```
 
 * Create a branch
