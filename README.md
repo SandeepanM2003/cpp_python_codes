@@ -4,7 +4,7 @@
 - Add any algorithm or leetcode solution in these two languages or fix the issues created in this repo
   - ⚙️C++ 
   - ⚙️python 
-- Contribute the codes in their respective language folder(C++ or Python) repo ad earn rewards 🏆 !
+- Contribute the codes in their respective language folder(C++ or Python) repo and earn rewards 🏆 !
 -  Visit The Hacktoberfest website for more information [Hacktoberfest 2023](https://hacktoberfest.com/) 
 
 ## Getting Started
