@@ -30,3 +30,38 @@ int main()
     }
     return 0;
 }
+
+
+// Adding Method 3 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    int arr[n];
+    
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+    
+    int left = 0;
+    int right = n - 1;
+    
+    while (left < right) {
+        // Swap the elements at left and right indices
+        int temp = arr[left];
+        arr[left] = arr[right];
+        arr[right] = temp;
+        
+        // Move the indices towards each other
+        left++;
+        right--;
+    }
+    
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << " ";
+    }
+    
+    return 0;
+}
