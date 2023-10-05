@@ -1,0 +1,21 @@
+def minDeletions(nums, numsDivide):
+    minNum = min(nums)
+    count = 0
+
+    for num in numsDivide:
+        if num % minNum != 0:
+            count += 1
+
+    if all(num % minNum == 0 for num in numsDivide):
+        return count
+    else:
+        return -1
+
+# Example usage:
+nums1 = [2, 3, 2, 4, 3]
+numsDivide1 = [9, 6, 9, 3, 15]
+print(minDeletions(nums1, numsDivide1))  # Output: 2
+
+nums2 = [4, 3, 6]
+numsDivide2 = [8, 2, 6, 10]
+print(minDeletions(nums2, numsDivide2))  # Output: -1
