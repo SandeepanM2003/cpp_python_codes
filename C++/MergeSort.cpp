@@ -52,11 +52,15 @@ void mergeSort(int arr[], int l, int r) {
     }
 }
 
+void printArray(int A[], int size) {
+    for (int i = 0; i < size; i++)
+        cout << A[i] << " ";
+}
+
 int main() {
     int arr[] = { 12, 11, 13, 5, 6, 7 };
     int arr_size = sizeof(arr) / sizeof(arr[0]);
     mergeSort(arr, 0, arr_size - 1);
-    for (int i = 0; i < arr_size; i++)
-        cout << arr[i] << " ";
+    printArray(arr, arr_size); // 5 6 7 11 12 13
     return 0;
 }
