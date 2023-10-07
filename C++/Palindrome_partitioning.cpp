@@ -41,3 +41,48 @@ public:
         
     }
 };
+
+
+//Adding new method
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution {
+public:
+    bool isPalindrome(string s) {
+        int left = 0, right = s.size() - 1;
+        while (left < right) {
+            if (s[left] != s[right])
+                return false;
+            left++;
+            right--;
+        }
+        return true;
+    }
+
+    void help(string s, vector<string>& temp, vector<vector<string>>& res, int index) {
+        if (index == s.size()) {
+            res.push_back(temp);
+            return;
+        }
+
+        for (int i = index; i < s.size(); i++) {
+            if (isPalindrome(s.substr(index, i - index + 1))) {
+                temp.push_back(s.substr(index, i - index + 1));
+                help(s, temp, res, i + 1);
+                temp.pop_back();
+            }
+        }
+    }
+
+    vector<vector<string>> partition(string s) {
+        vector<string> temp;
+        vector<vector<string>> res;
+
+        if (s.empty())
+            return res;
+
+        help(s, temp, res, 0);
+        return res;
+    }
+};
