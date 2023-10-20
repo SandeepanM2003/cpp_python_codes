@@ -1,0 +1,1 @@
+{"name":"Local: bfs","url":"/Users/veerchheda/coding/cpp_python_codes/C++/bfs.cpp","tests":[{"id":1697812590136,"input":"2 3\n1 2\n2 3\n4 5\n5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/veerchheda/coding/cpp_python_codes/C++/bfs.cpp","group":"local","local":true}
